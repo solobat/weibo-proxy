@@ -2,7 +2,7 @@ import { serve } from "https://deno.land/std@0.181.0/http/server.ts";
 
 serve(async (req: Request) => {
   const url = new URL(req.url);
-  const targetUrl = new URL("https://weibo.com/ajax/statuses/mymblog");
+  const targetUrl = new URL("https://www.gate.io/launch-pool/get-project-list");
 
   // 保留原始请求的查询参数
   url.searchParams.forEach((value, key) => {
